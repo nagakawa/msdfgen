@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 2.8.12)
+CMAKE_POLICY(SET CMP0048 NEW)
+CMAKE_POLICY(SET CMP0069 NEW)
 
 project(msdfgen)
 
